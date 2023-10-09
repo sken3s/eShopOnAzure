@@ -57,7 +57,7 @@ services:
       - basket.api
 
   sql.data:
-    image: microsoft/mssql-server-linux
+    image: mcr.microsoft.com/mssql/server:2022-latest
 
   basket.data:
     image: redis
